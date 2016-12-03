@@ -26,6 +26,7 @@ int main() {
 	leeMalla(nomArchP, nomArchC, &malla);
 	areas = (float *)malloc(malla.numCuadrados*sizeof(float));
 	perimetros = (float *)malloc(malla.numCuadrados*sizeof(float));
+	system("cls");
 
 	calculoMalla(&malla, areas, perimetros);
 
@@ -35,7 +36,7 @@ int main() {
 		return 0;
 	}
 	for (i = 0; i < malla.numCuadrados; i++) {
-		fprintf("%d %f %f\n", i, areas[i], perimetros[i]);
+		fprintf(salida,"%d %f %f\n", i, areas[i], perimetros[i]);
 	}
 	fclose(salida);
 	printf("\nSe ha generado el archivo 'resultados.txt'\n");

@@ -8,20 +8,20 @@ void calculoMalla(mallaCuadrilateros *malla, float * areas, float *perimetros) {
 	float area, perimetro, area1, area2;
 	//En vez de puntos serian vectores
 	punto2D lado1, lado2, lado3, lado4;
-	punto2D lados[4];
+	//punto2D lados[4];
 	cuadrilatero cuadTemp;
 
-	lados[0] = lado1;
+	/*lados[0] = lado1;
 	lados[1] = lado2;
 	lados[2] = lado3;
-	lados[3] = lado4;
+	lados[3] = lado4;*/
 
 	for (i = 0; i < malla->numCuadrados; i++) {
 		cuadTemp = malla->C[i];
 		//Para calcular el perimetro, debemos sumar todos los lados
 		//Primero calculamos cada lado
 		j = 0;
-		while (j < 3) {
+		while (j <= 3) {
 			if (j == 0) {
 				lado1.x = cuadTemp.v2.x - cuadTemp.v1.x;
 				lado1.y = cuadTemp.v2.y - cuadTemp.v1.y;

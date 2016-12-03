@@ -1,30 +1,35 @@
-﻿Compilación iniciada a las 30/11/2016 11:18:12 p. m..
+﻿Compilación iniciada a las 3/12/2016 5:18:55 p. m..
      1>Proyecto "C:\Users\josed\Documents\Programming\C\Proyecto2\Proyecto2\Proyecto2.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt calculoMalla.c leeMalla.c
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt leeMalla.c main.c
+         main.c
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(21): warning C4473: "scanf": no se pasaron suficientes argumentos para la cadena de formato
+         c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(21): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+         c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(21): note: the missing variadic argument 2 is required by format string '%[^\n]'
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: vea la declaración de 'scanf'
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(23): warning C4473: "scanf": no se pasaron suficientes argumentos para la cadena de formato
+         c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(23): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+         c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(23): note: the missing variadic argument 2 is required by format string '%[^\n]'
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: vea la declaración de 'scanf'
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\main.c(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
          leeMalla.c
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(60): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(75): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: vea la declaración de 'fscanf'
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(79): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(72): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(87): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: vea la declaración de 'fscanf'
      1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\leemalla.c(8): warning C4101: 'linea': variable local sin referencia
-         calculoMalla.c
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(50): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
          Generando código...
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(14): warning C4700: se utilizó la variable local 'lado1' sin inicializar
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(15): warning C4700: se utilizó la variable local 'lado2' sin inicializar
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(16): warning C4700: se utilizó la variable local 'lado3' sin inicializar
-     1>c:\users\josed\documents\programming\c\proyecto2\proyecto2\calculomalla.c(17): warning C4700: se utilizó la variable local 'lado4' sin inicializar
        Link:
          C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\josed\Documents\Programming\C\Proyecto2\Debug\Proyecto2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\josed\Documents\Programming\C\Proyecto2\Debug\Proyecto2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\josed\Documents\Programming\C\Proyecto2\Debug\Proyecto2.lib" /MACHINE:X86 Debug\calculoMalla.obj
          Debug\leeMalla.obj
@@ -34,4 +39,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:07.01
+Tiempo transcurrido 00:00:03.64
